@@ -1,90 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/all.css">
-    <link rel="stylesheet" href="../static/bootstrap.css">
-    <title>Document</title>
+    <title>Register</title>
+    <script src="https://kit.fontawesome.com/43d94d0551.js" crossorigin="anonymous"></script>
 </head>
 <style>
-body{
-    background-image: url(../static/background.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: black;
-    margin-top: 250px;
-}
-
-    
+    #testdrive{
+        margin-top: 100px;
+    }
 </style>
 
-
-
-
+    
+    <body
+        style="background-image: url('https://www.ybierling.com/images/large/officeproductivity/best-notepad-app-for-office-productivity/best-notepad-app-for-office-productivity.jpg'); background-repeat:no-repeat;background-size:cover">
+    
 
 <body>
-    <center>
-        <div id="testride1">
-            <form action="">
-                <table border="1px">
-                    <tr>
-                        <td>
-                            <h2> <label for="name">Name:</label> </h2>
-                        </td>
-                        <td> <input type="text" id="name" placeholder="Enter Your Name" name="name" value="paras raval"
-                                required> </td>
-
-
-                        <td>
-                            <h2><label for="email">Email:</label> </h2>
-                        </td>
-                        <td> <input type="email" id="email" placeholder="Enter Your Email" name="email" required>
-                        </td>
-
-
-                    </tr>
-                    <tr>
-                        <td>
-                            <h2><label for="city">City:</label> </h2>
-                        </td>
-                        <td>
-                            <select name="city" id="city" required>
-                                <option value="Mumbai">Mumbai</option>
-                                <option value="Kurla">Kurla</option>
-                                <option value="Sion">Sion</option>
-                                <option value="Surat">Surat</option>
-                                <option value="Gandhi NAgar">Gandhi NAgar</option>
-                                <option value="Vadodara">Vadodara</option>
-                                <option value="Bhavnagar">Bhavnagar</option>
-
-                            </select>
-                        </td>
-
-                        <td>
-                            <h2><label for="number">Mobile Number:</label> </h2>
-                        </td>
-                        <td> <input type="number" id="number" placeholder="Enter Your Mobile Number" name="number "
-                                required>
-                        </td>
-
-                    </tr>
-
-                    BOOK TEST RIDE
-                    <tr>
-                        <td> <input type="submit"></td>
-                        <td> <input type="reset"></td>
-                    </tr>
-
-                </table>
-            </form>
-        </div>
-    </center>
-
-
-
+    
+        <center>
+            <!-- <h1>Welcome To Author Registration</h1><br>
+            <h2><a href="/"><i>Home</i></a></a></h2><b> -->
+            
+            <div id="testdrive">
+                
+                    <form action="/adddata" method="post">
+                        <table >
+                            <tr>
+                                <i class="fa fa-user"></i>
+                                <input type="text" name="Name" placeholder="Entre Your Name" required>
+                            </tr> <br> <br>
+                            <tr>
+                                <i class="fa fa-key"></i>
+                                <input type="password" name="Password" placeholder="Entre Your Password" required>
+                            </tr> <br> <br>
+                            <tr>
+                                <i class="fa fa-envelope"></i>
+                                <input type="email" name="Email" placeholder="Entre Your Email" required>
+                            </tr> <br> <br>
+                            <tr>
+                                <i class="fa fa-globe"></i>
+                                <input type="text" name="City" placeholder="Entre Your City" >
+                            </tr> <br> <br>
+                            <tr>
+                                <center>
+                                    <td><input type="submit" value="Submit"></td>
+                                    <td><input type="reset" value="refresh"></td>
+                                </center>
+                            </tr>
+                        </table>
+                    </form>
+                
+            </div>
+        </center>  
+   
 </body>
-
 </html>
