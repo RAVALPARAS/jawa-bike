@@ -1,0 +1,407 @@
+body {
+      background-color: rgba(33, 30, 30, 0.86);
+      color: aliceblue;
+}
+
+#ft1 {
+      color: aliceblue;
+      margin-top: 100px;
+}
+
+
+#ft2 {
+      color: aliceblue;
+      margin-top: 100px;
+      margin-bottom: 50px;
+}
+
+#legend {
+      margin-top: 50px;
+
+}
+
+#continues {
+      margin-bottom: 50px;
+}
+
+#legend1 {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-left: 300px;
+      margin-right: 370px;
+}
+
+#len1:hover {
+      transform: scale(1.2);
+
+}
+
+#len2:hover {
+      transform: scale(1.2);
+}
+
+#len3:hover {
+      transform: scale(1.2);
+}
+
+#legend2 {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-left: 300px;
+      margin-right: 370px;
+}
+
+#len4:hover {
+      transform: scale(1.2);
+}
+
+#len5:hover {
+      transform: scale(1.2);
+}
+
+#len6:hover {
+      transform: scale(1.2);
+}
+
+#bookride {
+      margin-top: 70px;
+      margin-bottom: 60px;
+      color: brown;
+}
+
+#len8 {
+      margin-top: 190px;
+}
+
+#len9 {
+      margin-top: 80px;
+
+}
+
+#counter1 {
+      margin-bottom: 150px;
+      color: brown;
+}
+
+#counter2 {
+      margin-bottom: 150px;
+      color: brown;
+}
+
+#counter3 {
+      margin-bottom: 150px;
+      color: brown;
+
+}
+
+#view {
+      margin-top: 200px;
+      margin-left: 60px;
+      color: brown;
+}
+
+#maindealer {
+      margin-left: 290px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+
+
+}
+
+.location1 {
+      margin-left: 590px;
+
+}
+
+.location2 {
+      margin-left: 590px;
+}
+
+
+.location3 {
+      margin-left: 590px;
+}
+
+.location4 {
+      margin-left: 590px;
+}
+
+.location5 {
+      margin-left: 590px;
+}
+
+.location6 {
+      margin-left: 590px;
+}
+
+.location7 {
+      margin-left: 590px;
+}
+
+.location8 {
+      margin-left: 580px;
+}
+
+#header1 {
+      background-color: brown;
+
+}
+
+#gearup1 {
+      margin-top: 80px;
+      margin-bottom: 100px;
+}
+
+#cashflow {
+      color: rgba(208, 214, 214, 0.933);
+}
+
+#ridebutton1 {
+      margin-top: 45px;
+}
+
+#ridebutton1:hover {
+      transform: scale(1.2);
+}
+
+
+#ridebutton2 {
+      margin-top: 45px;
+}
+
+#ridebutton2:hover {
+      transform: scale(1.2);
+}
+
+div a {
+      text-decoration: none; color: white;
+}
+
+#header1 header{
+      text-decoration: none; color: white;
+}
+
+#forty2:hover{
+      transform: scale(1.1);
+
+}
+
+#forty3:hover{
+      transform: scale(1.1);
+
+}
+
+#forty4:hover{
+      transform: scale(1.1);
+
+}
+
+#forty5:hover{
+      transform: scale(1.1);
+}
+
+
+#----------------------------------------------bookscard------------------------------------------------------------------- .books {
+      width: 80%;
+      text-align: center;
+      margin: auto;
+      padding-top: 50px;
+}
+
+h1 {
+      font-size: 36px;
+      font-weight: 600;
+}
+
+p {
+      color: black;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 22px;
+      padding: 10px;
+}
+
+.row {
+      margin: 5%;
+      display: flex;
+      justify-content: space-between;
+}
+
+.books-col {
+      flex-basis: 31%;
+      background: #fff3f3;
+      border-radius: 10px;
+      margin-bottom: 5%;
+      padding: 25px 12px;
+      box-sizing: content-box;
+}
+
+h2 {
+      text-align: center;
+      margin: 10px 0;
+      font-weight: 600;
+      color: black;
+}
+
+.books-col:hover {
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+#kommuniti1 {
+      margin: 0;
+      padding: 0;
+      position: relative;
+      margin: 0 auto;
+
+}
+
+#kommunitiheading {
+      color: blue;
+      position: absolute;
+      margin-top: 100px;
+}
+
+/*------------------------------------------------------ gear up your ride -----------------------------------------------------------*/
+
+
+#gearup1 {
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      background-image: url(../static/gearup\ .jpg);
+      background-size: cover;
+
+
+}
+
+#gearupinner {
+      position: absolute;
+      width: 100%;
+      color: azure;
+      font-size: 45px;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      top: 15%;
+      left: 50%;
+
+}
+
+#gearup1 #gearupinner h1 {
+      color: rgb(247, 247, 247);
+      margin-top: 10px;
+
+      margin-left: 50px;
+      /* font-size: 20px; */
+}
+
+#gearup1 #gearupinner h2 {
+      color: rgb(238, 238, 238);
+
+}
+
+#gearup1 #gearupinner h3 {
+      color: rgb(238, 238, 238);
+      border: 1px;
+      border-bottom: 4px solid white;
+      border-top: 4px solid white;
+      border-top-left-radius: 700px;
+      border-bottom-right-radius: 700px;
+}
+
+#------------------------------------------------------- #moter1:hover {
+      transform: scale(1.4);
+
+}
+
+#degan p {
+      color: rgb(222, 222, 222);
+      /* top: 80%; */
+      /* bottom: 50%;  */
+      border-bottom-left-radius: 70px;
+      border-top-right-radius: 70px;
+      border-bottom: 4px solid white;
+      border-top: 4px solid white;
+      /* border-top-left-radius: 70px;
+      border-bottom-right-radius: 70px; */
+
+}
+
+
+#gearup2 {
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      background-image: url(../static/kommuniti.jpg);
+      position: absolute;
+      background-size: cover;
+
+
+}
+
+#gearupinner {
+      position: absolute;
+      width: 100%;
+      color: azure;
+      font-size: 45px;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      top: 15%;
+      left: 50%;
+
+}
+
+#gearup2 #gearupinner h1 {
+      color: rgb(247, 247, 247);
+      margin-top: 10px;
+
+      margin-left: 50px;
+      /* font-size: 20px; */
+}
+
+#gearup2 #gearupinner h2 {
+      color: rgb(238, 238, 238);
+
+}
+
+#gearup2 #gearupinner h3 {
+      color: rgb(238, 238, 238);
+      border: 1px;
+      border-bottom: 4px solid white;
+      border-top: 4px solid white;
+      border-top-left-radius: 700px;
+      border-bottom-right-radius: 700px;
+}
+
+
+#mediaspotlight h4 {
+      margin-top: 30px;
+
+}
+
+#spotlight1:hover {
+      transform: scale(1.1);
+}
+
+#spotlight2:hover {
+      transform: scale(1.1);
+}
+
+#spotlight3:hover {
+      transform: scale(1.1);
+}
+
+#mediaspotlight1{
+      margin-top: 900px;
+}
+
+#footer #footer1 #h5{
+      color: white;
+
+}
+
+
+
+
+
+
